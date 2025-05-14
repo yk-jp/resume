@@ -3,7 +3,7 @@
   "version": "y",
   "description": "my resume repo",
   "scripts": {
-    "generate": "md-to-pdf --config-file ./config/format.json resume.md"
+    "generate": "md-to-pdf resume.md --config-file ./config/format.json --launch-options '{ \"args\": [\"--no-sandbox\"] }'"
   },
   "repository": "git@github.com:yk-jp/resume.git",
   "author": "yk-jp <k82.y12@gmail.com>",
