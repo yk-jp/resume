@@ -8,6 +8,7 @@ on:
     paths:
       - 'resume.md'
       - 'config/**'
+      - 'package.json'
 
 permissions:
   contents: write
