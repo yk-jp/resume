@@ -1,4 +1,5 @@
-# Manage my resume
+# Manage my resume   
+[![Generate resume.pdf](https://github.com/yk-jp/resume/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/yk-jp/resume/actions/workflows/main.yaml)
 
 ## How to Generate the PDF
 
