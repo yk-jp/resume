@@ -1,7 +1,6 @@
 name: Generate resume.pdf
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
@@ -9,7 +8,7 @@ on:
       - 'resume.md'
       - 'config/**'
       - 'package.json'
-
+  workflow_dispatch:
 permissions:
   contents: write
 
