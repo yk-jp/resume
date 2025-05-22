@@ -33,6 +33,9 @@ jobs:
       - name: Generate PDF
         run: yarn generate
 
+      - name: Install Japanese fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
       - name: Generate PDF (Japanese)
         run: yarn generate:jp
 
