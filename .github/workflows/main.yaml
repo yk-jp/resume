@@ -33,6 +33,9 @@ jobs:
       - name: Generate PDF
         run: yarn generate
 
+      - name: Generate PDF (Japanese)
+        run: yarn generate:jp
+
       - name: Commit and push pdf
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
