@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'resume.md'
+      - 'resume.jp.md'
       - '.github/**'
       - 'config/**'
       - 'package.json'
