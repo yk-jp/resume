@@ -35,6 +35,11 @@ After returning to Japan, I've been working on Order Management System (Ruby, AW
 - Refactored complex shipping logic, removing unnecessary code and updating related test code without introducing critical bugs.
 - Handled daily support tickets from other teams in both English and Japanese in addition to my main responsibilities.
 
+<div style="page-break-after: always;"></div>
+
+<br>
+<br>
+
 <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
   <span style="font-size:1.2em; font-weight:bold;">Sippy Software, Inc | Backend Engineer</span>
   <span >Dec 2022 – Aug 2024 | Burnaby, Canada</span>
