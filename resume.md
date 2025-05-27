@@ -2,62 +2,92 @@
 
 [Portfolio](https://yk-jp.github.io/portfolio/) | [GitHub](https://github.com/yk-jp) | [LinkedIn](https://www.linkedin.com/in/yusukekohatsu/)
 
-### Work Experience
+## Professional Summary
 
----
+After graduating from Meiji University with an engineering degree, I worked as a Systems Engineer at Hitachi Systems, responsible for backend (Java, MySQL) development and test design for customer management systems. After that, I moved to Canada and gained engineering experience (Next.js, TypeScript, Express.js, MySQL) in global environments through internships and volunteering while waiting for a full-time work permit. In my personal time, I've participated in Hacktoberfest, an OSS development event, to improve technical skills (Python, TypeScript, React.js).
+
+I later joined Sippy Software as a Backend Engineer, handling SIP voice call system (Python, Go, MySQL) session management, connection status updates, and optimizing call history fetch from the DB (Python, PHP, PostgreSQL). I worked closely with the CEO and lead engineer, which required careful time and task management.
+
+After returning to Japan, I've been working on Order Management System (Ruby, AWS, TypeScript) development at Ichigo, Inc. I've leveraged English skills for full-stack development of customer portals and subscription services (Next.js, TypeScript). Occasionally, I deal with incident response and daily support tickets for other teams and partner companies.
+
+## Skills & Experience
+
+<strong>Backend Development for High-Traffic Systems:</strong> At Sippy Software, managed backend systems handling 540 billion seconds of communication traffic annually using Go and Python. I contributed to the migration from Python to Go while ensuring zero regressions. As part of a three engineer team, I developed XML-APIs in Python and worked with the large-scale data processing logic in a call management system built with Vue and PHP.
+
+<strong>Experience related to business impact:</strong> At Ichigo Inc., I worked on a complex logistics system for snack box subscriptions to international customers, integrating various external services and handling diverse business scenarios and incident responses to prevent financial losses. I Communicated effectively in both English and Japanese with non-engineers such as the marketing team and buyers to work on feature requests.
+
+<strong>Global Work Experience:</strong> I spent half of my career working abroad; currently, 80% of my colleagues at Ichigo, Inc. are non-Japanese, so English is the primary language. I managed asynchronous communication, clarified scope and deadlines, and minimized communication loss through meetings and clear task breakdowns.
+
+<strong>Public Cloud Knowledge & Experience:</strong> I primarily used AWS, including CloudWatch, S3, Parameter Store, and ECS for development and debugging. I earned the AWS Certified Solutions Architect to further enhance my skills.
+
+## Work Experience
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
-  <strong>Ichigo, Inc | Software Engineer</strong>
+  <span style="font-size:1.2em; font-weight:bold;">Ichigo, Inc | Software Engineer</span>
   <span >Oct 2024 – Present | Tokyo, Japan</span>
 </div>
 
-- Contributed to launching a new shipment method using Ruby, TypeScript, and AWS to sell snack boxes.
-- Resolved pricing discrepancies from external services (Shopify, Amazon) without overloading the OMS using Ruby, Shopify, external APIs, and Workers.
-- Optimized the use of an external API to print shipping labels by implementing bulk batch processing in Ruby.
-- Implemented a new listing page to handle urgent tasks due to customs policy updates using TypeScript, Ruby, MySQL, and AWS.
-- Removed unused code from complex shipping logic without causing financial damages and adjusted all shipping-related test code using Ruby.
-- Handled support request tickets daily for other teams in addition to main tasks.
+- Led the launch of a new shipping method within two weeks, implementing a new snack box delivery feature using AWS S3 and shipping service APIs.
+- Fixed price data sync bugs from external services (Shopify, Amazon) to the OMS using Ruby, Sidekiq, and external APIs, considering rate limits and API throttling.
+- Improved shipping label printing efficiency by implementing batch processing with Ruby and external APIs.
+- Monitored Sentry alerts and addressed critical errors to the team.
+- Developed a new listing page using TypeScript, Next.js, and AWS S3 within a week to address urgent customs rule changes.
+- Refactored complex shipping logic, removing unnecessary code and updating related test code without introducing critical bugs.
+- Handled daily support tickets from other teams in both English and Japanese in addition to my main responsibilities.
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
-  <strong>Sippy Software, Inc | Backend Engineer</strong>
+  <span style="font-size:1.2em; font-weight:bold;">Sippy Software, Inc | Backend Engineer</span>
   <span >Dec 2022 – Aug 2024 | Burnaby, Canada</span>
 </div>
 
-- Optimized SQL query to make the call detail record report three times faster.
-- Provided a custom shell script for translating call numbers to meet urgent customer needs, bolstering sales by $300 within a week.
+- Improved call detail record report speed 3 times faster by optimizing table join patterns and analyzing DB query execution times.
+- Delivered a custom shell script for phone number conversion to meet urgent customer needs, completing a $300 project within one week.
 - Developed and deployed a new invoice table feature using Python and PostgreSQL.
-- Led the design and implementation of highly maintainable and loosely coupled code for distributed components, utilizing Python, Go, PHP, and XML-RPC.
-- Created robust XML-APIs and ensured their stability with 100% test coverage using Python and pytest.
-- Streamlined the development process by configuring build checks and implementing automated unit testing in Go for 10 repositories using Bitbucket pipeline.
+- Debugged SIP session establishment and resolved protocol violations using Go and Python.
+- Coordinated closely with the Ukraine QA team to ensure smooth migration from Python to Go without regressions.
+- Led the design and implementation of maintainable, loosely coupled distributed components using Python, Go, PHP, and XML-RPC.
+- Developed robust XML-APIs with 100% test coverage using Python and pytest.
+- Improved team productivity by onboarding new engineers and through pair programming.
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
-  <strong>Myadcenter | Full-Stack Engineer Intern</strong>
+  <span style="font-size:1.2em; font-weight:bold;">Myadcenter | Full-Stack Engineer Intern</span>
   <span >Jan 2022 – June 2022 | Remote, Toronto, Canada</span>
 </div>
 
-- Developed a user-friendly form component for purchasing phone numbers with robust validations using Redux, MaterialUI, JavaScript, Next.js, and Twilio API.
-- Optimized code efficiency by resolving issues and streamlining billing data retrieval from the database in Node.js, JavaScript, Express.js, and MySQL.
-- Revamped the method for searching and filtering data in Node.js, Express.js, JavaScript, Next.js, and MySQL, enhancing code reusability and scalability.
+- Developed a phone number purchase form with comprehensive validation using Material-UI, JavaScript, Next.js, and Twilio API.
+- Improved billing data retrieval efficiency and resolved performance issues using Node.js, JavaScript, Express.js, and MySQL.
+- Refactored data search and filtering code for reusability using Node.js, JavaScript, Next.js, and MySQL.
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
-  <strong>Hitachi Systems, Ltd | Systems Engineer</strong>
+  <span style="font-size:1.2em; font-weight:bold;">Hitachi Systems, Ltd | Systems Engineer</span>
   <span>Apr 2020 – Sept 2021 | Tokyo, Japan</span>
 </div>
 
-- Developed a robust REST API for the user management system in Java, ensuring 100% test coverage with JUnit.
-- Created reusable table components for the user management system using HTML, CSS, and TypeScript.
-- Detected all potential bugs before shipment by achieving 100% test coverage for the Construction Cost Management System using Java and manual testing.
-- Conducted thorough user testing and diligently reported bugs via JIRA.
-- Removed all functional bugs by designing test cases and meticulously verifying test results for the construction cost management system using MySQL and JIRA.
+- Developed robust REST APIs for user management systems in Java, achieving 100% test coverage with JUnit.
+- Created reusable table components for user management systems using HTML, CSS, and TypeScript.
+- Detected all potential bugs before release and achieved 100% test coverage for the Construction Cost Management System using Java, MySQL, and manual testing.
+- Conducted thorough user testing and reported bugs to other teams via JIRA.
+- Designed and verified test cases using MySQL and JIRA, eliminating all functional bugs in the construction cost management system.
 
-### Education
+## OSS Contributions
 
----
+**fpdf2 [PR](https://github.com/py-pdf/fpdf2/pull/543)**
 
-**University of Meiji, Tokyo:** B.Eng in Interdisciplinary Engineering, Apr 2016 - Mar 2020
+- Python library for creating PDFs from HTML.
+- Added support for new HTML tags and removed deprecated main class, considering regressions.
 
-### Certification
+**novu [PR](https://github.com/novuhq/novu/pull/1412)**
 
----
+- Notification platform managing multiple channels like Slack, Email, and Push.
+- Improved test coverage by adding component tests using Cypress and React.js.
 
-**AWS Certified Solutions Architect – Associate:** Issued Mar 2024, Expires Mar 2027
+## Education
+
+**Cornerstone International Community College of Canada:** Web and Mobile App Development, Jan 2022 – Dec 2023  
+**Meiji University (Tokyo):** B.Eng in Interdisciplinary Engineering, Apr 2016 – Mar 2020
+
+## Certifications
+
+**AWS Certified Solutions Architect – Associate** Mar 2024 – Mar 2027  
+**IELTS General Training O.A. 8.0** Aug 2023 – Aug 2025  
+**Hacktoberfest 2022 OSS Contribution** Oct 2022
